@@ -5,4 +5,33 @@
 .left-h{
     padding: 2rem;
     padding-top: 1rem;
+    flex:3;
+    gap: 2rem;
+    flex-direction: column;
+}
+.right-h{
+    flex: 1;
+}
+.the-add{
+    margin-top: 4rem;
+    background-color: #363d42;
+    border-radius: 1rem;
+    width: fit-content;
+    padding: 20px 13px;
+    color: white;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+.the-add>div{
+    position: absolute;
+    background-color: var(--orange);
+    width:80%;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+    padding-top: 10%;
+}
+.the-add>span{
+    z-index: 2;
 }

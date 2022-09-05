@@ -8,9 +8,12 @@ const Hero = () => {
    <div className="hero">
     <div className="left-h">
        <Header/>
-
+    <div className="the-add">
+      <div></div>
+      <span>The Best Fittness Club</span>
     </div>
-    <div className="right-h">right side</div>
+</div>
+    <div className="right-h"></div>
    </div>
   )
 }
